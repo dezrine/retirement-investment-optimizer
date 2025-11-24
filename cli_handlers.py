@@ -23,7 +23,7 @@ def get_valid_positive_numerical_input(prompt: str, allow_zero: bool, Type: str)
     """ Handles float/integer input that should only be positive.
 
        The parameter 'allowZero' is there to reduce the amount of functions, 
-       just add true or false if it should or be entered
+       just add true or false if it should or shouldn't be entered
 
        'Type' parameter is for specifying whether we are working with integers or floats
     """
