@@ -22,7 +22,7 @@ def main_menu():
     print("=====================================================")
     
     # --- 2. Delay for 5 seconds ---
-    print("\nSystem loading... please wait 2 seconds...")
+    print("\nSystem loading... please give us a moment...")
     time.sleep(2)
     
     # --- 3. Main Menu Loop ---

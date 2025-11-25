@@ -84,7 +84,7 @@ def handle_variable_investor():
 
     principal = get_valid_positive_numerical_input("   Enter Starting Principal ($): ", True, "float")
     # Annual Contribution input
-    annual_contribution = get_annual_interest_rate("   Enter Annual Contribution ($): ")
+    annual_contribution = get_annual_interest_rate("   Enter Annual Contribution (%): ")
     rates_str = input("   Enter Annual Rates (comma-separated, e.g., 0.10, 0.05, -0.02): ")
     
     rate_list = []
