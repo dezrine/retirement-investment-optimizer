@@ -5,16 +5,35 @@ AOA Group Project
 ## Running the Application
 
 ### GUI Version (Recommended) ⭐
+
 ```bash
 python gui_app.py
 ```
+
 This launches an interactive **Tkinter GUI** with 4 tabs:
-- **Fixed Growth**: Calculate final balance with fixed annual interest rate
-- **Variable Growth**: Model varying annual interest rates  
+
+- **Fixed Growth**: Calculate final balance with fixed annual interest rate + **interactive growth chart**
+- **Variable Growth**: Model varying annual interest rates + **interactive growth chart**
 - **Retirement Longevity**: Determine how many years funds will last
 - **Max Withdrawal**: Find maximum sustainable annual withdrawal
 
+#### Plotting Features (Bonus Marks)
+
+The Fixed Growth and Variable Growth tabs include:
+
+- **Interactive Charts**: Visualize portfolio growth over time with Matplotlib
+- **Dual Series**: Compare total balance (with interest) vs. principal only (no interest)
+- **Toolbar**: Zoom, pan, and interact with charts directly
+- **Export**: Save plots as PNG or PDF for reports/presentations
+
+To use plotting, install Matplotlib:
+
+```bash
+pip install matplotlib
+```
+
 ### CLI Version (Terminal)
+
 ```bash
 python main_app.py
 ```
